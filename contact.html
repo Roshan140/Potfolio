@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="footercss.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header" class="header2">
+        <nav>
+            <div class="hamburger" onclick="a()">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+            <p class="p" onclick="p()"></p>
+              
+            <ul>
+            
+                <li><a  class="h" href="index.html">Home</a></li>
+                <li><a  class="a" href="aboutme.html" >About Me</a></li>
+                <li><a  class="s" href="services.html">Services</a></li>
+                <li><a  class="c" href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="box"> 
+      <h1><center> Login Form</h1></center>
+      <form method="post" name="myform" onsubmit="return validation()">
+        <p>Email <br>
+          <input type="text" id="email" name="email"  class="form" required/><br>
+        </p>
+        <p>Password   <br>
+          <input type="password" id="password"  name="password" class="form" required/><br>
+        </p>
+        <p>Confirm-Password   <br>
+          <input type="password" id="confirmpassword"  name="confirmpassword" class="form" required/><br>
+        </p>
+          <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Describe your requirement"></textarea>
+        <input type="submit"  id="submit" value="Login"/>
+      </form>
+    </div>
+      <div class="popup">
+
+    <img src="login.png" class="cimg">
+
+   <h2>Thank You</h2>
+   
+   <p>Your form has been submitted.</p>
+   <button onclick="closepopup()">OK</button>
+  </div>
+  <footer>
+    <div class="footercontainer">
+      <div class="footerlogo">
+        <img src="image.png" alt="Logo">
+      </div>
+      <div class="contact-info">
+<div class="animation">
+<h2> <span class="span-type"></span></h2>
+</div>
+        <p>Butwal 11 Devinagar</p>
+        <p>Email: info@example.com</p>
+        <p>Phone:  456-7890</p>
+      </div>
+      <div class="social-links">
+
+        <h4><span class="follow-us"></span></h4>
+
+        <ul>
+          <li><a href="#"  class="facebook"></a></li>
+          <li><a href="#"  class="twitter"></a></li>
+          <li><a href="#"  class="instagram"></a></li>
+          <li><a href="#"  class="youtube"></a></li>
+        </ul>
+      </div>
+    </div>
+</footer>
+      <script src="js3.js"></script>
+      <script src="js5.js"></script>
+      <script>
+
+            </script>
+</body>
+</html>

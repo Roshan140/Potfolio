@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: black;
+
+    height:0vh;
+    margin-top: 0%;
+}
+
+nav ul li a{
+
+
+    text-decoration: none;
+    color: aliceblue;
+  
+}
+
+body{
+background-color: black;
+}
+.text p{
+  color: white;
+}
+.hamburger{
+   float: left;
+    height: 25px;
+    background-color: black;
+}
+
+.lines{
+    background-color: white;
+    width: 25px;
+    height: 5px;
+    margin: 5px;
+}
+ ul li a{
+    display: none;
+}
+nav p{
+    color: white;
+    font-size: 35px;
+    float: right;
+    height: 50px;
+    display: none;
+}
+li a{
+    font-size: 30px;
+}
+nav ul li a{
+    padding: 40px;
+}
+.h{
+  padding-top: 80px;
+}
+.rightcontainer{
+   float: left;
+    height: 500px;
+   display: flex;
+   margin-top: 0px;
+   margin-bottom: 205px;
+
+ 
+}
+.p{
+  font-size: 50px;
+}
+.p:hover{
+  background-color: gray;
+  width: 35px;
+}
+body{
+    display: flex;
+}
+.image img{
+    width: 70%;
+    margin-top: 60px;
+margin-left: 50px;
+
+height: 500px;
+}
+
+.text {
+  display: block;
+ 
+margin-top: 300px;
+
+
+}
+li {
+    list-style: none;
+  }
+  .text p{
+    font-weight: 100;
+  }
+  .text button{
+    height: 35px;
+    border: 3px solid black;
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    width: 70%;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: large;
+    align-self: flex-start;
+
+
+}
+.text button a{
+    text-decoration: none;
+    color: white;
+}
+.text button:hover{
+letter-spacing: 0.1em;
+box-shadow: 0 0 35px;
+}
+.about {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    background-image: url("istockphoto-1300112022-612x612.jpg");
+    background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  }
+  .ho:hover{
+    background-color: orange;
+  }
+  .about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+.h:hover{
+background-color: orange;
+  }
+  .a:hover{
+    background-color: orange;
+      }
+      .c:hover{
+        background-color: orange;
+          }
+          .s:hover{
+            background-color: orange;
+              }
+  .about p {
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+ .skills input{
+    border: 3px solid black;
+    border-radius: 10px;
+background-color: white;
+display: block;
+
+ }
+ 
+
+ .html{
+   width: 80%;
+    margin-left: 0%;
+    position: relative;
+    animation: html 1s linear;
+ }
+@keyframes html{
+  0% {
+    width: 0%;
+}
+50%{
+    width: 50%;
+}
+80%{
+width: 80%;
+}
+}
+ .css{
+    width: 70%;
+    margin-left: 0%;
+    position: relative;
+    animation: css 2s linear;
+ }
+ @keyframes css{
+  0% {
+    width: 0%;
+}
+50%{
+    width: 50%;
+}
+70%{
+width: 70%;
+}
+ }
+ .js{
+    width: 60%;
+    position: relative;
+    animation: js 3s linear;
+ }
+ @keyframes js{
+  0% {
+    width: 0%;
+}
+30%{
+    width: 30%;
+}
+60%{
+width: 60%;
+}
+ }
+ .php{
+    width: 50%;
+    position: relative;
+    animation: php 4s linear;
+ }
+ @keyframes php{
+  0% {
+    width: 0%;
+}
+10%{
+    width: 10%;
+}
+50%{
+width: 50%;
+}
+ }
+.skills h4{
+    padding-left: 0%;
+}
+.box{
+
+    box-sizing: border-box; 
+    border: 5px solid black;
+    border-radius: 25px;
+  height: 500px;
+    margin-left: 250px;
+    background-color: black;
+    margin-top: 100px;
+   
+  }
+  .box input{
+    border-radius: 25px;
+    width: 100%;
+    }
+    
+    
+       .box h1 {
+          padding-top: 20px;
+          padding-bottom: 20px;
+          color: skyblue;
+       }
+    .box p{
+       color: white;
+    }
+  
+  .form{
+    border: none;
+    border-bottom: 1px solid black;
+    height: 25px;
+  }
+  #submit{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: orange;
+    border-radius: 25px;
+    width: 100%;
+    border-color: orange;
+    font-weight: bold;
+    height: 25px;
+  }
+ 
+  #textarea{
+    width: 100%;
+    margin-top: 50px;
+  }
+ .services{
+    width: 80%;
+    padding: 50px;
+   
+ }
+ .i{
+    margin-top: 50px;
+   
+ }
+ .wd{
+  display: flex;
+  margin-bottom: 25px;
+ }
+.wd img{
+  border-radius: 50%;
+}
+.wms{
+  display: flex;
+}
+.wms img{
+  border-radius: 50%;
+}
+ .i img{
+  margin-bottom: 15px;
+    height: 200px;
+    width: 50%;
+ }
+ .i p{
+    font-size: 25px;
+    margin-bottom: 90px;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: orange;
+    width: 55%;
+ }
+span{
+  color: orange;
+}
+.cimg{
+  box-shadow: 0 2px 5px rgb(0, 0, 0,0.2);
+  width: 40%;
+  height: 180px;
+  border-radius: 50%;
+  margin-top: -50px;
+  }
+    .popup{
+      background-color: white;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform:translate(-50%,-50%) scale(0.1) ;
+  visibility: hidden;
+  transition: transform 0.4s,top 0.4s;
+    }
+    .open-popup{
+      visibility: visible;
+      top: 50%;
+  transform:translate(-50%,-50%) scale(1) ;
+    }
+    button{
+      font-size: 25px;
+      background-color: orange;
+  width: 25%;
+  border: none;
+    }
+ body{
+  background-image: url("istockphoto-1300112022-612x612.jpg");
+  background-size: cover;
+background-repeat: no-repeat;
+
+
+}
