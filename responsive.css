@@ -95,6 +95,9 @@
    .i p {
       height: 25px;
    }
+     .header-aboutme{
+      height: 100vh;
+   }
 }
 
 @media (max-width: 280px) {
