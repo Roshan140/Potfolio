@@ -98,6 +98,9 @@
      .header-aboutme{
       height: 100vh;
    }
+    .aboutme-body{
+      height: 14px;
+   }
 }
 
 @media (max-width: 280px) {
