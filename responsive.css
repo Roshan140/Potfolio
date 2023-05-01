@@ -99,6 +99,7 @@
    }
      .header-aboutme{
       height: 100vh;
+      width: auto;
    }
     .aboutme-body{
       height: 14px;
