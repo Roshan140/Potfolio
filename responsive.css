@@ -38,7 +38,9 @@
    }
 
    .image img {
-      width: 400%;
+     margin-top: 0px;
+      width: 300%;
+     
      
   
   
@@ -60,7 +62,7 @@
    }
 
    .rightcontainer {
-      margin-right: 50%;
+      margin-right: 90%;
       float: left;
 
       width: 90%;
