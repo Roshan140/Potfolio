@@ -10,7 +10,7 @@ function a(){
     document.querySelector(".c").style.display="block";
     document.querySelector(".p").style.display="block";
     document.querySelector(".header").style.backgroundColor = 'black';
-    document.querySelector(".header").style.height = '100vh';
+    document.querySelector(".header").style.height = 'auto';
     document.querySelector(".header").style.width = '30%';
     document.querySelector(".about").style.width = '70%';
     document.querySelector(".hamburger").style.display="none";
