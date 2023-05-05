@@ -31,14 +31,14 @@ function p(){
     document.querySelector(".c").style.display="none";
     document.querySelector(".p").style.display="none";
     document.querySelector(".hamburger").style.display="block";
-    document.querySelector(".header").style.backgroundColor = 'black';
+    document.querySelector(".header").style.height = '0px';
     document.querySelector(".header").style.width = '30px';
     const mediaQuery = window.matchMedia('(max-width: 767px)');
     if (mediaQuery.matches) {
-        document.querySelector(".header").style.backgroundColor = 'black';
+       
         document.querySelector(".header").style.height = '-1px';
         document.querySelector(".about").style.display="block";
-        document.querySelector("body").style.height="0vh"
+     
 
       }
 }
