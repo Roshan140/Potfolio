@@ -1,8 +1,4 @@
-const mediaQuery = window.matchMedia('(max-width: 767px)');
-if (mediaQuery.matches) {
-  document.querySelector("body").style.height="0vh"
 
-  }
 function a(){
     document.querySelector(".h").style.display="block";
     document.querySelector(".a").style.display="block";
