@@ -9,9 +9,7 @@ header{
     height:0vh;
     margin-top: 0%;
 }
-.header-aboutme{
-  height:auto;
- }
+
 nav ul li a{
 
 
@@ -120,14 +118,11 @@ letter-spacing: 0.1em;
 box-shadow: 0 0 35px;
 }
 .about {
-    background-color: black;
+
     color: white;
     padding: 50px;
     text-align: center;
-    background-image: url("istockphoto-1300112022-612x612.jpg");
-    background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
+  
   }
   .ho:hover{
     background-color: orange;
