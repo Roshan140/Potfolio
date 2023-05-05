@@ -2,9 +2,7 @@
    body{
       height: 170vh;
    }
- .about{
-   height: 200vh;
- }
+ 
    .services {
       display: fixed;
    }
@@ -97,13 +95,7 @@
    .i p {
       height: 25px;
    }
-     .header-aboutme{
-      height: 100vh;
-      width: auto;
-   }
-    .aboutme-body{
-      height: 14px;
-   }
+    
 }
 
 @media (max-width: 280px) {
